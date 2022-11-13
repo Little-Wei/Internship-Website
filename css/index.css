@@ -1,0 +1,259 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* each character's spacing */
+  letter-spacing: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h3 {
+  font-weight: bolder;
+}
+
+.bg-colors {
+  background-color: #F8F3EF;
+}
+
+.container {
+  padding-bottom: 5em;
+}
+
+.nav-link {
+  /* nav-link's font size 16px */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-link-color {
+  color: #74A2CC !important;
+}
+
+#second-hover-underline-animation {
+  position: relative;
+}
+
+#second-hover-underline-animation:hover {
+  color: #ECBC9A;
+}
+
+#second-hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ECBC9A;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#second-hover-underline-animation:hover::before {
+  transform: scaleX(1);
+}
+
+#third-hover-underline-animation {
+  position: relative;
+}
+
+#third-hover-underline-animation:hover {
+  color: #74A2CC;
+}
+
+#third-hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #74A2CC;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#third-hover-underline-animation:hover::before {
+  transform: scaleX(1);
+}
+
+#fourth-hover-underline-animation {
+  position: relative;
+}
+
+#fourth-hover-underline-animation:hover {
+  color: #87B4A0;
+}
+
+#fourth-hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #87B4A0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#fourth-hover-underline-animation:hover::before {
+  transform: scaleX(1);
+}
+
+.second-content {
+  /* second-content's font size is 18px */
+  font-size: 1.125em;
+  line-height: 2.5;
+}
+
+.technology-logo {
+  /* fixed image size */
+  max-height: 100%;
+  min-height: 100%;
+}
+
+.card {
+  padding: 1.5em .5em .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card-logo {
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.card-btn {
+  padding: .5em 1.5em;
+  border-radius: 2em;
+  background-color: teal;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.card-btn:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.footer-style {
+  /* footer-style's font size is 14px */
+  background-color: #f8f1f1;
+  font-size: 0.875em;
+  color: #f17e7e;
+}
+
+.footer-list {
+  padding-left: 0;
+  /* remove list's bullet */
+  list-style-type: none;
+}
+
+.footer-list a {
+  color: gray;
+}
+
+.footer-heading {
+  font-size: 16px;
+}
+
+.first-title {
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #3376DB;
+}
+
+.first-title a {
+  margin-top: 5em;
+}
+
+.first-title img {
+  position: relative;
+}
+
+#first {
+  background-color: #fef0db;
+  background-image: linear-gradient(225deg, #fef0db 30%, #ccf1fa 60%);
+}
+
+#second h1 {
+  /* stay litte distance from first section */
+  padding-top: 2em;
+  color: #ECBC9A;
+  text-align: center;
+}
+
+#second h3 {
+  color: #ECBC9A;
+}
+
+#second h4 {
+  padding: 1.125em;
+  color: #ECBC9A;
+  text-align: center;
+}
+
+#third h1 {
+  color: #74A2CC;
+  text-align: center;
+}
+
+#third h3 {
+  font-weight: lighter;
+}
+
+#third h4 {
+  padding: 1.125em;
+  color: #74A2CC;
+  text-align: center;
+}
+
+#fourth h1 {
+  color: #87B4A0;
+  text-align: center;
+}
+
+#fourth h3 {
+  color: #87B4A0;
+  font-weight: 100;
+}
+
+#fourth h4 {
+  padding: 1.125em;
+  color: #87B4A0;
+  text-align: center;
+}
+
+#fourth h5 {
+  color: #0A9396;
+}
+
+#fourth p {
+  /* this paragraph's font size is 18px */
+  font-size: 1.125em;
+}
