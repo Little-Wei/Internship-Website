@@ -133,6 +133,14 @@ h3 {
   min-height: 100%;
 }
 
+@media (max-width: 540px) {
+
+  /* technology-text's font size is 18px */
+  .technology-text {
+    font-size: 1.125em;
+  }
+}
+
 .card {
   padding: 1.5em .5em .5em;
   margin-left: 1em;
