@@ -195,6 +195,8 @@ h3 {
 
 .first-title {
   height: 25em;
+  margin-left: .5em;
+  margin-right: .5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
